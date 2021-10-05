@@ -1,0 +1,42 @@
+/*? global project variables */
+:root {
+    --light                 :#ffffff;
+    --c-text                :#72727d;
+    --primary               :#121216;
+    --primary-alter         :#191922;
+    --primary-intermediate  :#23232d;
+    --terciario             :#FB504F;
+    --font-title            :'Raleway', sans-serif;
+    --font-description      :'Open Sans', sans-serif;
+}
+
+/*? reset browser styles */
+*,
+:after,
+:before{ 
+    box-sizing: border-box; 
+}
+body{
+    margin: 0;
+    line-height: 1.6;   
+    font-family: var(--font-description);
+}
+img{
+    max-width: 100%;    
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    border-style: none;
+}
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
